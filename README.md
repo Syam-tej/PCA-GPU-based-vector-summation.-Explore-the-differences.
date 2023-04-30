@@ -325,8 +325,7 @@ int main(int argc, char **argv)
     return(0);
 }
 ~~~
-###3.Block.x=256
-~~~
+### 3.Block.x=256
 #include
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -476,7 +475,6 @@ int main(int argc, char **argv)
 
     return(0);
 }
-
 ~~~
 ## Output:
 
