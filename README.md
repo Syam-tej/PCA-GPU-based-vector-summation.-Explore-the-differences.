@@ -15,7 +15,8 @@ ii) Refer to sumArraysOnGPU-timer.cu, and let block.x = 256. Make a new kernel t
 3.Initialize input arrays with random values on the host.
 4.Allocate memory on the device for input and output arrays, and copy input data from host to device.
 5.Launch a CUDA kernel to perform vector addition on the device.
-6.Copy output data from the device to the host and verify the results against the host's sequential vector addition. Free memory on the host and the device.
+6.Copy output data from the device to the host and verify the results against the host's sequential vector addition.
+  Free memory on the host and the device.
 ~~~
 ### PROGRAM:
 ### Developed by : P SYAM TEJ
