@@ -325,8 +325,8 @@ int main(int argc, char **argv)
     return(0);
 }
 ~~~
-###3. Block.x=256
-~~~
+## 3. Block.x=256
+~~
 #include
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -476,7 +476,7 @@ int main(int argc, char **argv)
 
     return(0);
 }
-```
+~~
 ## Output:
 
 ### 1. Block.x=1023
@@ -491,11 +491,11 @@ int main(int argc, char **argv)
 
 
 ## Result:
-~~~
+~~
 i) Thus the program to compare the execution time and result of summing two arrays using CUDA programming by setting block.
 x = 1023 and block.x = 1024 has been successfully implemented and verified.
 
 ii) Thus the program to To analyze the impact of changing execution configuration on the execution time and result of summing 
 two arrays using CUDA programming by letting each thread handle two elements and setting block.
 x = 256 has been successfully implemented and verified.
-~~~
+~~
