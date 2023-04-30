@@ -325,9 +325,9 @@ int main(int argc, char **argv)
     return(0);
 }
 ~~~
-### 3. Block.x=256
+###3.Block.x=256
 ~~~
-#include "../common/common.h"
+#include
 #include <cuda_runtime.h>
 #include <stdio.h>
 
@@ -479,18 +479,17 @@ int main(int argc, char **argv)
 
 ~~~
 ## Output:
-~~~
-1. Block.x=1023
+
+### 1. Block.x=1023
 ![image](https://user-images.githubusercontent.com/93427224/235335123-7025ece0-9ab8-43e2-b5d6-b1c31041a084.png)
 
 
-2. Block.x=1024
+### 2. Block.x=1024
 ![image](https://user-images.githubusercontent.com/93427224/235335132-91316b85-ac8d-429d-85fb-678a3d67fdf2.png)
 
-3. Block.x=256
+### 3. Block.x=256
 ![image](https://user-images.githubusercontent.com/93427224/235335144-3b8cf4ca-64bd-4b90-af59-6ca25595c32c.png)
 
-~~~
 
 ## Result:
 ~~~
