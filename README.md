@@ -9,18 +9,17 @@ ii) Refer to sumArraysOnGPU-timer.cu, and let block.x = 256. Make a new kernel t
 (ii) To set the number of threads as 256 and obtain the elapsed time on Host and GPU.
 ~~~
 ## Procedure:
+~~~
 1.Initialize the device and set the device properties.
 2.Allocate memory on the host for input and output arrays.
 3.Initialize input arrays with random values on the host.
 4.Allocate memory on the device for input and output arrays, and copy input data from host to device.
 5.Launch a CUDA kernel to perform vector addition on the device.
 6.Copy output data from the device to the host and verify the results against the host's sequential vector addition. Free memory on the host and the device.
-
-### PROGRAM:
 ~~~
+### PROGRAM:
 ### Developed by : P SYAM TEJ
 ### Reg.No : 212221240056
-~~~
 ~~~
 1. Block.x=1023
 #include "../common/common.h"
